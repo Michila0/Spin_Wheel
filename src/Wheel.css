@@ -7,3 +7,18 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.mainbox{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.mainbox::after{
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 100%;
+    
+}
