@@ -45,7 +45,17 @@ span{
     position: absolute;
 }
 
-span1{
+.span1{
     clip-path: polygon(0 17%, 0 50%, 50% 50%);/*set the percentage*/
     background-color: green;
+}
+
+.span2{
+    clip-path: polygon(0 17%, 30% 0, 50% 50%);/*set the percentage*/
+    background-color: red;
+}
+
+.span3{
+    clip-path: polygon(71% 0, 100% 10%, 50% 50%);/*set the percentage*/
+    background-color: blue;
 }
