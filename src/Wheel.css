@@ -1,10 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}   
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;/*100vh*/
     overflow: hidden;
-    /* background: url(./Images/image1.jpg);  */
+    background: url(./Images/image1.jpg); 
     background-size: cover;
     background-position: center;
 }
