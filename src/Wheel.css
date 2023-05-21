@@ -84,3 +84,31 @@ span{
     clip-path: polygon(71% 0, 100% 0%, 50% 50%);
     background-color: orange;
 } */
+
+.box2.span3{
+    background-color: #00ff04;
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+
+.box2.span1{
+    background:#333;
+}
+
+.font{
+    color: #fff;
+    font-size: 20px;
+}
+
+.box1.span1 h5{
+    position: absolute;
+    top: 40%;
+    right: 63%;
+    transform: rotate(200deg);
+    text-align: center;
+    /* color: black; */
+}
