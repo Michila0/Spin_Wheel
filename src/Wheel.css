@@ -12,7 +12,7 @@ body {
     align-items: center;
     height: 100vh;/*100vh*/
     overflow: hidden;
-    /* background: url(./Images/image1.jpg);  */
+    background: url(./Images/image1.jpg); 
     background-size: cover;
     background-position: center;
 }
@@ -95,7 +95,7 @@ span{
     transform: rotate(180deg);
 }
 
-.box2.span1{
+.box2 .span1{
     background:#333;
 }
 
@@ -140,8 +140,18 @@ span{
 
 .box1 .span5 h5{
     position: absolute;
-    top: 25%;
-    right: 6%;
+    top: 30%;
+    right: 4%;
     transform: rotate(-15deg);
     text-align: center;
 } 
+
+.box2 .span1 h5{
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    right: 63%;
+    transform: rotate(200deg);
+    text-align: center;
+}
+
