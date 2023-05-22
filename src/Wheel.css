@@ -115,9 +115,17 @@ span{
 
 .box1.span2 h5{
     position: absolute;
-    top: 17%;
-    right: 63%;
-    transform: rotate(200deg);
+    top: 30%;
+    right: 57%;
+    transform: rotate(-130deg);
     text-align: center;
-    /* color: black; */
+    
+} 
+
+.box1.span3 h5{
+    position: absolute;
+    top: 30%;
+    right: 57%;
+    transform: rotate(-130deg);
+    text-align: center;
 } 
