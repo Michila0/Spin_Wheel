@@ -56,6 +56,7 @@ span {
 }
 
 .span1 {
+    /* span block has copy this */
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -68,21 +69,41 @@ span {
 }
 
 .span2 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+
     clip-path: polygon(0 17%, 30% 0, 50% 50%);/*set the percentage*/
     background-color: red;
 }
 
 .span3{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+
     clip-path: polygon(30% 0, 71% 0%, 50% 50%);/*set the percentage*/
     background-color: blue;
 }
 
 .span4 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+
     clip-path: polygon(71% 0, 100% 18%, 50% 50%);/*set the percentage*/
     background-color: salmon;
 }
 
 .span5 {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    
     clip-path: polygon(100% 18%, 100% 50%, 50% 50%);/*set the percentage*/
     background-color: yellow;
 }
@@ -162,3 +183,20 @@ span {
     text-align: center;
 }
 
+.box2 .span2 h5 {
+    font-size: 50px;
+    position: absolute;
+    top: 28%;
+    right: 54%;
+    transform: rotate(-130deg);
+    text-align: center;
+}
+
+.box2 .span3 h5 {
+    font-size: 50px;
+    position: absolute;
+    top: 15%;
+    right: 40%;
+    transform: rotate(-130deg);
+    text-align: center;
+}
