@@ -209,3 +209,12 @@ span {
     transform: rotate(-130deg);
     text-align: center;
 }
+
+.box2 .span5 h5 {
+    /* font-size: 50px; */
+    position: absolute;
+    top: 38%;
+    right: 15%;
+    transform: rotate(-130deg);
+    text-align: center;
+}
