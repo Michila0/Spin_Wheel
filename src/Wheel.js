@@ -50,4 +50,13 @@ function spin() {
     setTimeout(function(){
         element.classList.add('animate');
     }, 5000);
+
+    setTimeout(function(){
+
+    })
+
+    setTimeout(function(){
+        box.style.setProperty("transition", "initial");
+        box.style.transform = "rotate(90deg)";
+    }, 6000);
 }
