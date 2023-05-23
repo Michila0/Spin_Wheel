@@ -215,6 +215,10 @@ span {
     position: absolute;
     top: 38%;
     right: 15%;
-    transform: rotate(-130deg);
+    transform: rotate(-20deg);
     text-align: center;
+}
+
+.spin {
+    
 }
