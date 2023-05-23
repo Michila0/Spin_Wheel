@@ -175,28 +175,37 @@ span {
 } 
 
 .box2 .span1 h5 {
-    font-size: 50px;
+    /* font-size: 50px; */
     position: absolute;
-    top: 34%;
-    right: 70%;
+    top: 40%;
+    right: 80%;
     transform: rotate(200deg);
     text-align: center;
 }
 
 .box2 .span2 h5 {
-    font-size: 50px;
+    /* font-size: 50px; */
     position: absolute;
     top: 28%;
-    right: 54%;
+    right: 60%;
     transform: rotate(-130deg);
     text-align: center;
 }
 
 .box2 .span3 h5 {
-    font-size: 50px;
+    /* font-size: 50px; */
     position: absolute;
-    top: 15%;
-    right: 40%;
+    top: 20%;
+    right: 45%;
+    transform: rotate(-130deg);
+    text-align: center;
+}
+
+.box2 .span4 h5 {
+    /* font-size: 50px; */
+    position: absolute;
+    top: 23%;
+    right: 25%;
     transform: rotate(-130deg);
     text-align: center;
 }
