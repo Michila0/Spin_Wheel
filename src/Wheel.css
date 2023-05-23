@@ -220,5 +220,24 @@ span {
 }
 
 .spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: brown;
+    color: #fff;
+    box-shadow: 0 5px 20px #000;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.spin:active {
+    width: 70px;
     
 }
