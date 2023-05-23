@@ -11,7 +11,7 @@ function shuffle(array) {
 }
 
 function spin() {
-    Wheel.play();
+    // Wheel.play();
     const box = document.getElementById("box");
     const element = document.getElementById("mainbox");
     let SelectItem = "";
@@ -52,7 +52,7 @@ function spin() {
     }, 5000);
 
     setTimeout(function(){
-
+        // alert
     })
 
     setTimeout(function(){
